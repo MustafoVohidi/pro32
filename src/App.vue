@@ -100,7 +100,7 @@ let validat = (color) => {
     alert("Значение должно начаться '#'")
     return false
   }else if(color.length!=7){
-    alert("Значение должно быть минимум 7 значений")
+    alert("Значение должно иметь 7 символов")
     return false
   }else if(isNaN(parseInt(color[1], 16))  || isNaN(parseInt(color[2], 16)) || isNaN(parseInt(color[3], 16)) || isNaN(parseInt(color[4], 16)) || isNaN(parseInt(color[5], 16)) || isNaN(parseInt(color[6], 16)) ||  isNaN(parseInt(color[6], 16))){
     alert("Значение должно быть от 0 до F ")
