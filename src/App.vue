@@ -1,7 +1,6 @@
 <template>
   <div class="main">
     <div class="title">Input</div>
-    <!-- <img src="@/assets/test.png" alt=""> -->
     <div class="input_val">
       <span class="box" :style="{ background: background }"></span>
       <input class="text" type="text" :value="background" @change="changeColor" />

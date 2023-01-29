@@ -1,10 +1,8 @@
 <template>
     <button @click="chooseColor" :style="{ background: color}" class="select_color">
-       
     </button>
 </template>
 <script setup>
-import { onMounted } from "vue"
 const props = defineProps({
 color:String,
 })
@@ -14,9 +12,6 @@ const emit=defineEmits([
 let chooseColor=()=>{
     emit("choose", props.color)
 }
-onMounted(() => {
-    
-})
 </script>
 <style lang="scss">
     .select_color{
