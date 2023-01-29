@@ -140,7 +140,6 @@ let validat = (color) => {
     margin: auto;
     margin-bottom: 10px;
     justify-content: space-around;
-    cursor: pointer;
 
     .box {
       margin-right: 5px;
@@ -149,7 +148,7 @@ let validat = (color) => {
     .arrow {
       font-size: 1.2rem;
       transform: rotate(90deg);
-
+      cursor: pointer;
       &.active {
         transform: rotate(-90deg);
       }
